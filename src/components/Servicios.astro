@@ -1,0 +1,15 @@
+---
+const servicios = [
+ ['01','Reparación','Volvamos a poner tu bicicleta en marcha. Consulta por la revisión que necesitas.'],
+ ['02','Mantenimiento','Cuida tu próxima salida con un mantenimiento completo.'],
+ ['03','Repuestos','Repuestos básicos para tu bicicleta. Consulta disponibilidad por WhatsApp.'],
+ ['04','Alquiler','Explora los alrededores en bicicleta. Alquiler por horas o por día.'],
+];
+---
+<section id="servicios" class="wrap py-20">
+ <p class="eyebrow mb-4">Un taller, muchas rutas</p>
+ <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-10">Todo para seguir pedaleando.</h2>
+ <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+ {servicios.map(([n,t,d]) => <article class="rounded-2xl border border-green-900/15 p-6 bg-white"><span class="text-sm text-green-800">{n} /</span><h3 class="text-xl font-bold mt-8 mb-3">{t}</h3><p class="text-stone-600 leading-relaxed">{d}</p></article>)}
+ </div>
+</section>
