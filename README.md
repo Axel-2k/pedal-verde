@@ -1,12 +1,12 @@
 # Pedal Verde — Axel Velásquez
-Sitio académico con Astro 7 y Tailwind 4. El teléfono es el ejemplo de la consigna.
+Sitio académico con Astro 5 y Tailwind 4. El teléfono es el ejemplo de la consigna.
 
 Sitio publicado: https://pedal-verde-axel.vercel.app
 
 Repositorio: https://github.com/Axel-2k/pedal-verde
 
 ## Ejecutar
-Instala Node.js 22.23 o superior. En esta carpeta:
+Instala Node.js 22 o superior. En esta carpeta:
 ```powershell
 npm ci
 npm run dev
@@ -29,3 +29,6 @@ El wireframe adjunto se creó antes del código; es un esquema digital SVG. Si e
 No hay precios, dirección exacta ni disponibilidad inventados.
 
 Documentación: https://docs.astro.build/en/guides/styling/ y https://tailwindcss.com/docs/installation/framework-guides/astro
+
+## Ampliación HTML y CSS
+Explora.astro añade presentación del taller, pasos para coordinar una visita, modalidades de alquiler y preguntas frecuentes con details/summary. global.css contiene estilos propios, rejillas adaptables, estados de foco y reglas para movimiento reducido. El wireframe original conserva la primera planificación; estas secciones son una ampliación posterior.

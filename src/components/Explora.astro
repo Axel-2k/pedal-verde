@@ -1,0 +1,101 @@
+---
+import { enlaceWhatsApp } from '../data/negocio';
+---
+
+<!-- Sección editorial: información del negocio proporcionada en el brief. -->
+<section id="nosotros" class="wrap section-space about-grid" aria-labelledby="nosotros-title">
+  <div>
+    <p class="eyebrow section-kicker">Un taller de aquí</p>
+    <h2 id="nosotros-title" class="section-title">Bicicletas que conectan<br />personas y caminos.</h2>
+  </div>
+  <div class="about-copy">
+    <p>Pedal Verde es un pequeño taller de San Miguel de los Bancos. Una sola persona se encarga de atender a los vecinos y a los ciclistas que pasan por el pueblo.</p>
+    <p>Ya sea para volver a tu recorrido de todos los días o para conocer los alrededores durante una visita, aquí puedes consultar por reparación, mantenimiento, repuestos y alquiler.</p>
+    <a href="#visitanos" class="text-link">Encuentra el taller <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<!-- Una lista ordenada comunica una secuencia sin depender de JavaScript. -->
+<section class="process-band" aria-labelledby="pasos-title">
+  <div class="wrap section-space">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow section-kicker">Organiza tu visita</p>
+        <h2 id="pasos-title" class="section-title">Del primer mensaje<br />al siguiente pedal.</h2>
+      </div>
+      <p class="section-intro">Cuéntanos qué necesitas para coordinar los detalles antes de acercarte.</p>
+    </div>
+    <ol class="steps-grid">
+      <li class="step-card">
+        <span class="step-number" aria-hidden="true">01</span>
+        <h3>Cuéntanos tu idea</h3>
+        <p>Indica si necesitas reparar tu bicicleta, darle mantenimiento, consultar un repuesto o alquilar una.</p>
+      </li>
+      <li class="step-card">
+        <span class="step-number" aria-hidden="true">02</span>
+        <h3>Consulta los detalles</h3>
+        <p>Pregunta por disponibilidad, precio y tiempo estimado. Confirma las condiciones del servicio que te interesa.</p>
+      </li>
+      <li class="step-card">
+        <span class="step-number" aria-hidden="true">03</span>
+        <h3>Coordina tu visita</h3>
+        <p>Acuerda cuándo acercarte al taller y solicita las indicaciones para llegar desde el parque central.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="alquiler" class="wrap section-space" aria-labelledby="alquiler-title">
+  <div class="rental-panel">
+    <div class="rental-copy">
+      <p class="eyebrow section-kicker">Cambia de ritmo</p>
+      <h2 id="alquiler-title" class="section-title">Descubre el camino<br />sobre dos ruedas.</h2>
+      <p>¿Estás de visita? Consulta por el alquiler de bicicletas y organiza tu salida por los alrededores de San Miguel de los Bancos.</p>
+      <a href={enlaceWhatsApp} class="button rental-button" target="_blank" rel="noopener noreferrer">Consultar alquiler ↗</a>
+    </div>
+    <div class="rental-options">
+      <article>
+        <span class="option-label">A tu ritmo</span>
+        <h3>Por horas</h3>
+        <p>Una opción para una salida corta. Consulta las horas disponibles y las condiciones de devolución.</p>
+      </article>
+      <article>
+        <span class="option-label">Con más tiempo</span>
+        <h3>Por día</h3>
+        <p>Organiza un recorrido más largo. Confirma el horario de entrega, la tarifa y los requisitos del alquiler.</p>
+      </article>
+      <p class="rental-note">Disponibilidad, precios y condiciones se confirman directamente con el taller.</p>
+    </div>
+  </div>
+</section>
+
+<!-- details/summary aporta interacción nativa y acceso con teclado. -->
+<section id="preguntas" class="wrap faq-section" aria-labelledby="faq-title">
+  <div>
+    <p class="eyebrow section-kicker">Antes de venir</p>
+    <h2 id="faq-title" class="section-title">Preguntas<br />que ayudan.</h2>
+    <p class="faq-intro">Los detalles de tu bicicleta o de tu visita pueden cambiar lo que necesitas. Conversemos.</p>
+  </div>
+  <div class="faq-list">
+    <details>
+      <summary>¿Qué servicios puedo consultar?</summary>
+      <p>Reparación de bicicletas, mantenimiento completo, repuestos básicos y alquiler por horas o por día.</p>
+    </details>
+    <details>
+      <summary>¿Cuál es el horario del taller?</summary>
+      <p>De lunes a sábado, de 08:00 a 18:00. Puedes escribir antes de tu visita para coordinar la atención.</p>
+    </details>
+    <details>
+      <summary>¿Cómo consulto un repuesto?</summary>
+      <p>Escribe el nombre de la pieza y los datos de tu bicicleta. Una foto puede ayudar a identificarla. Confirma su compatibilidad y disponibilidad con el taller.</p>
+    </details>
+    <details>
+      <summary>¿Dónde encuentro precios y condiciones de alquiler?</summary>
+      <p>Solicítalos por WhatsApp. Indica si prefieres alquilar por horas o por día y cuándo planeas visitar el taller.</p>
+    </details>
+    <details>
+      <summary>¿Dónde está Pedal Verde?</summary>
+      <p>Cerca del parque central de San Miguel de los Bancos. Pide las indicaciones exactas al coordinar tu visita.</p>
+    </details>
+  </div>
+</section>
