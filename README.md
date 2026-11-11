@@ -1,12 +1,12 @@
 # Pedal Verde — Axel Velásquez
-Sitio académico con Astro 5 y Tailwind 4. El teléfono es el ejemplo de la consigna.
+Sitio académico con Astro 7 y Tailwind 4. El teléfono es el ejemplo de la consigna.
 
 Sitio publicado: https://pedal-verde-axel.vercel.app
 
 Repositorio: https://github.com/Axel-2k/pedal-verde
 
 ## Ejecutar
-Instala Node.js 22 o superior. En esta carpeta:
+Instala Node.js 22.23 o superior. En esta carpeta:
 ```powershell
 npm ci
 npm run dev
