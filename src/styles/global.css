@@ -122,6 +122,14 @@
 .faq-list details p { padding: 0 26px 24px 0; line-height: 1.8; color: var(--muted); }
 .faq-list summary:focus-visible { outline: 3px solid #7f9b2e; outline-offset: 4px; border-radius: 4px; }
 
+/* Fotos: recorte uniforme con object-fit para que no se deformen. */
+.photo { display: block; width: 100%; object-fit: cover; border-radius: 22px; background: #dfe7d4; }
+.hero-photo { margin: 0; border-radius: 32px; overflow: hidden; background: #e7edda; }
+.hero-photo img { display: block; width: 100%; aspect-ratio: 6 / 5; object-fit: cover; }
+.hero-photo figcaption { padding: 16px 28px 20px; font-size: 0.875rem; font-weight: 700; }
+.about-photo { margin-top: 36px; aspect-ratio: 10 / 7; }
+.rental-photo { margin-top: 36px; aspect-ratio: 16 / 10; border: 1px solid #769481; }
+
 /* Ajustes para tablet y celular, sin anchos fijos en el contenido. */
 @media (max-width: 760px) {
   .about-grid, .rental-panel, .faq-section { grid-template-columns: 1fr; }
